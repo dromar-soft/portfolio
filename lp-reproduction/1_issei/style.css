@@ -1,0 +1,394 @@
+header{
+
+}
+
+  .container{
+  }
+
+  .header_contents{
+    height: 101px;
+    padding: 0px 50px;
+    min-height: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .top-link{
+    /* float: left;
+    display: inline-block; /*幅・高さ指定のためにブロック化*/
+    /* width: 20%;
+    height: 80px; */
+    display: inline-block;
+    width: 30vw;
+    height: 3vw;
+    background: url("./img/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .header-menu{
+  }
+
+  ul.header-menu{
+    list-style-type: none;
+    width: 50vw;
+    height: 4vw;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+    li.header-menu-item{
+      font-weight: bold;
+      font-size: 1vw;
+      display: inline-block;
+    }
+
+  .header-menu-item a{
+      color: black;
+      text-decoration: none;
+  }
+
+/* /header */
+
+body {
+  color: #333;
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+.top_wrapper{
+  display: block;
+}
+
+.top_icons{
+  text-align:center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: calc(77vw/2); /*親要素の幅に対する77％の高さをかさ増し⇒背景画像の縦横比と合わせると、背景画像が見切れることなく表示される*/
+}
+
+.top_icon{
+  /* float: left; /*同一クラスを横並び*/
+  width: 50%; /*TODO:スマホの時は100%にして、縦に並べる*/
+  height: calc(77vw/2);
+  position: relative;
+}
+
+.top_icon a{
+  display: block; /*幅・高さ指定のためにブロック化*/
+  width: 100%; /*親ブロックの幅だけめい一杯広げる*/
+  height: 100%;
+}
+
+.top_icon:hover{
+  opacity: 0.6;
+  transition: opacity 0.5s;
+}
+
+.top_icon a.bass{
+  background: url("./img/top_background_01.jpg");
+  background-repeat: no-repeat;
+  background-size: contain; /*描画領域内に背景画像のすべてが表示されるよう拡大・縮小させる場合*/
+}
+
+.top_icon a.salt{
+ background: url("./img/top_background_02.jpg");
+ background-repeat: no-repeat;
+ background-size: contain; /*描画領域内に背景画像のすべてが表示されるよう拡大・縮小させる場合*/
+}
+
+.top_text{
+  position: absolute;
+  top:41%;
+  left:0%;
+  padding-right:18%;
+  padding-left: 18%;
+  width:64%;
+  margin: 9.5% 0;
+  float: left;
+}
+
+.top_icon a h4{
+  font-size: 23px;
+  font-weight: normal;
+  color: white;
+  letter-spacing: 2px;
+  margin: 0 0 4px 0;
+}
+
+.top_icon a p{
+  color: white;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.cray_logo{
+  position: absolute;
+  top:41%;
+  left:0%;
+  float: left;
+  padding-right:18%;
+  padding-left: 18%;
+  width:64%;
+}
+
+.umi_logo{
+  position: absolute;
+  top:40%;
+  left:0%;
+  float: left;
+  padding-right:31%;
+  padding-left: 31%;
+  width: 38%;
+}
+
+/* /top-wrapper */
+
+.main_wrapper{
+  width: 1120px;
+  margin: auto;
+  display: block;
+}
+
+.second_icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second_icon{
+
+}
+
+a.second_icon{
+  display: block;
+  width:  360px;
+  height: 0px;
+  padding-top: calc(360px*0.649);
+  margin: 50px 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.second_icon:hover{
+  opacity: 0.6;
+  transition: opacity 0.5s;
+}
+
+a.fish_catch{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("./img/shortlink1_img.jpg");
+}
+
+a.movie{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("./img/shortlink2_img.jpg");
+}
+
+a.onlineshop{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("./img/shortlink3_img.jpg");
+}
+
+.second_box{
+
+}
+
+.second_box>img{
+  position: absolute;
+  top:  25%;
+  width: 80px;
+  left: calc((360px - 80px)/2);
+  margin: 0;
+}
+
+.second_box>.text_en{
+  position: absolute;
+  width: 100%;
+  top:  70%;
+  margin: 0;
+  color: white;
+}
+
+.text_ja{
+  color: black;
+  font-weight: bold;
+}
+/* /second-wrapper */
+
+.important-info{
+  width: 100%;
+  text-align: center;
+}
+
+.important-info a{
+  display: block;
+  padding: 35px 0;
+  font-size: 60px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border: solid;
+  border-radius: 1px;
+  border-color: red
+}
+/* /important-info */
+
+.news{
+
+}
+
+.news h3{
+  margin-top: 60px;
+  margin-bottom: 0px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.news h4{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.news-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+a.news-item{
+  display: block;
+  /* width:  300px;
+  height: 0px;
+  padding-top: calc(300px*0.649); */
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  width: 25%;
+}
+
+.news-item img{
+  width: 100%;
+  height: auto;
+}
+
+.news-item img:hover{
+  opacity: 0.7;
+  transition: opacity 0.25s;
+}
+
+.news-item p{
+  margin: 5px 0;
+  font-size: 14px;
+}
+.news-item p.text{
+  color:black;
+}
+.news-item p.date{
+  color:gray;
+}
+
+.more-news{
+  width: 100%;
+  height: 60px;
+  text-align: center;
+
+}
+.more-news a{
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  display: block;
+  width: 300px;
+  padding: 15px 0;
+  margin: auto;
+}
+
+.more-news a:hover{
+  opacity: 0.6;
+  transition: opacity 0.4s;
+}
+/* /news */
+
+.sns{
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.sns a{
+  display: block;
+  font-size: 48px; /* アイコンだけど、サイズはfont-sizeで指定 */
+  margin:0 25px;
+  color: black;
+  text-decoration: none;
+  padding-bottom: 52px;
+}
+
+.sns a:hover{
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+/* /sns */
+
+/* /body */
+
+.footer-contents{
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.footer-menu{
+  padding-top: 40px;
+  margin: 0;
+  padding-bottom: 8px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.footer-menu li a{
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-contents .profile{
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 60px;
+  font-size: 15px;
+}
+
+.footer-contents p{
+  display: block;
+  margin: 0;
+  font-size: 15px;
+}
+
+li.footer-menu-item{
+  display: inline-block;
+}
