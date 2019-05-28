@@ -2,7 +2,19 @@ header{
 
 }
 
-  .container{
+  header .container{
+    /*ヘッダ部を上部固定*/
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+  }
+
+  /*header .containerを上部固定にするため、先頭でbodyに被らないようパディング*/
+  .padding-header{
+    width: 100%;
+    height: 101px;
   }
 
   .header_contents{
