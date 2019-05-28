@@ -361,6 +361,31 @@ a.news-item{
 
 /* /sns */
 
+.pagetop{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.pagetop a{
+  background-color: #8dc21f;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  color: white;
+}
+
+.fa-arrow-up{
+}
+/* /pagetop*/
+
 /* /body */
 
 .footer-contents{
