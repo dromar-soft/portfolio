@@ -263,10 +263,7 @@ a.onlineshop{
 }
 
 .news-items{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+/*responsive.css参照*/
 }
 
 a.news-item{
@@ -279,7 +276,7 @@ a.news-item{
   margin-right: 10px;
   margin-bottom: 50px;
   text-decoration: none;
-  width: 25%;
+  width: 100%;
 }
 
 .news-item img{

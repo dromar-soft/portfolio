@@ -8,13 +8,20 @@
     height: auto;
   }
 
+  /*widthを調整*/
   .main_wrapper{
     width: 400px;
     margin: auto;
     display: block;
   }
 
+   /*一つずつ縦に並べる*/
   .second_icons{
+  }
+
+  /*一つずつ縦に並べる*/
+  .news-items{
+    width: 100%;
   }
 }
 
@@ -31,16 +38,26 @@
     align-items: center;
   }
 
+  /*widthを調整*/
   .main_wrapper{
     width: 1120px;
     margin: auto;
     display: block;
   }
 
+  /*アイコンを等分割し横並びさせる*/
   .second_icons{
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  /*アイコンを等分割し横並びさせる*/
+  .news-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 
 }
