@@ -78,24 +78,18 @@ body {
 
 .top_icons{
   text-align:center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   width: 100%;
-  height: calc(77vw/2); /*親要素の幅に対する77％の高さをかさ増し⇒背景画像の縦横比と合わせると、背景画像が見切れることなく表示される*/
+  height: auto;
 }
 
 .top_icon{
-  /* float: left; /*同一クラスを横並び*/
-  width: 50%; /*TODO:スマホの時は100%にして、縦に並べる*/
-  height: calc(77vw/2);
+  width: 100%; /*TODO:スマホの時は100%にして、縦に並べる*/
   position: relative;
 }
 
 .top_icon a{
   display: block; /*幅・高さ指定のためにブロック化*/
-  width: 100%; /*親ブロックの幅だけめい一杯広げる*/
-  height: 100%;
+  padding-bottom: calc(100%*0.77);
 }
 
 .top_icon:hover{

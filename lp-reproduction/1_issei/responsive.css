@@ -1,0 +1,26 @@
+/*スマホ用*/
+@media screen and (max-width:480px){
+
+  /*一つずつ縦に並べる*/
+  .top_icons{
+    text-align:center;
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+/*PC用*/
+@media screen and (min-width:481px){
+
+  /*アイコンを等分割し横並びさせる*/
+  .top_icons{
+    text-align:center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+}
