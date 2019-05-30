@@ -1,0 +1,63 @@
+/*スマホ用*/
+@media screen and (max-width:480px){
+
+  /*一つずつ縦に並べる*/
+  .top_icons{
+    text-align:center;
+    width: 100%;
+    height: auto;
+  }
+
+  /*widthを調整*/
+  .main_wrapper{
+    width: 400px;
+    margin: auto;
+    display: block;
+  }
+
+   /*一つずつ縦に並べる*/
+  .second_icons{
+  }
+
+  /*一つずつ縦に並べる*/
+  .news-items{
+    width: 100%;
+  }
+}
+
+/*PC用*/
+@media screen and (min-width:481px){
+
+  /*アイコンを等分割し横並びさせる*/
+  .top_icons{
+    text-align:center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /*widthを調整*/
+  .main_wrapper{
+    width: 1120px;
+    margin: auto;
+    display: block;
+  }
+
+  /*アイコンを等分割し横並びさせる*/
+  .second_icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*アイコンを等分割し横並びさせる*/
+  .news-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+}
