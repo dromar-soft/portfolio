@@ -77,9 +77,7 @@ body {
 }
 
 .top_icons{
-  text-align:center;
-  width: 100%;
-  height: auto;
+ /*responsive.css参照*/
 }
 
 .top_icon{
@@ -158,15 +156,11 @@ body {
 /* /top-wrapper */
 
 .main_wrapper{
-  width: 1120px;
-  margin: auto;
-  display: block;
+/*responsive.css参照*/
 }
 
 .second_icons{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/*responsive.css参照*/
 }
 
 .second_icon{

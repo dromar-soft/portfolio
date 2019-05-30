@@ -8,6 +8,14 @@
     height: auto;
   }
 
+  .main_wrapper{
+    width: 400px;
+    margin: auto;
+    display: block;
+  }
+
+  .second_icons{
+  }
 }
 
 /*PC用*/
@@ -20,6 +28,18 @@
     height: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+  }
+
+  .main_wrapper{
+    width: 1120px;
+    margin: auto;
+    display: block;
+  }
+
+  .second_icons{
+    display: flex;
+    justify-content: center;
     align-items: center;
   }
 
