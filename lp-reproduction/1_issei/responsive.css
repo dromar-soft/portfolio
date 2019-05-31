@@ -6,6 +6,14 @@
     visibility: hidden;
   }
 
+  /*ヘッダ高さ調節*/
+  .padding-header{
+    height: 60px;
+  }
+  .header_contents{
+    height: 60px;
+  }
+
   /*一つずつ縦に並べる*/
   .top_icons{
     text-align:center;
@@ -39,6 +47,14 @@
   /*ヘッダメニューアイコンを非表示*/
   .header-menu-icon{
     visibility: hidden;
+  }
+
+  /*ヘッダ高さ調節*/
+  .padding-header{
+    height: 101px;
+  }
+  .header_contents{
+    height: 101px;
   }
 
   /*アイコンを等分割し横並びさせる*/
