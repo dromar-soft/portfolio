@@ -163,16 +163,21 @@ body {
 /*responsive.css参照*/
 }
 
-.second_icon{
-
+.second_icon_s{
+  width: 100%;
+  text-align: center;
 }
+
+.second_icon{
+}
+
 
 a.second_icon{
   display: block;
-  width:  360px;
+  width:  95%;
   height: 0px;
-  padding-top: calc(360px*0.649);
-  margin: 50px 10px;
+  padding-bottom: calc(95%*0.649);
+  margin: 0 2.5%;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -209,7 +214,7 @@ a.onlineshop{
   position: absolute;
   top:  25%;
   width: 80px;
-  left: calc((360px - 80px)/2);
+  left: calc((100% - 80px)/2);
   margin: 0;
 }
 
@@ -234,8 +239,8 @@ a.onlineshop{
 
 .important-info a{
   display: block;
-  padding: 35px 0;
-  font-size: 60px;
+  padding: 2vh 0;
+  font-size: 5vw;
   text-decoration: none;
   color: white;
   background-color: black;
@@ -272,11 +277,11 @@ a.news-item{
   height: 0px;
   padding-top: calc(300px*0.649); */
   margin-top: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
   margin-bottom: 50px;
   text-decoration: none;
-  width: 100%;
+  width: 95%;
 }
 
 .news-item img{

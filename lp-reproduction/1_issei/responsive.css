@@ -10,13 +10,16 @@
 
   /*widthを調整*/
   .main_wrapper{
-    width: 400px;
+    width:95%;
+    max-width: 400px;
     margin: auto;
     display: block;
   }
 
    /*一つずつ縦に並べる*/
   .second_icons{
+    width: 100%;
+    padding: 40px 0;
   }
 
   /*一つずつ縦に並べる*/
@@ -40,16 +43,20 @@
 
   /*widthを調整*/
   .main_wrapper{
-    width: 1120px;
+    width: 95%;
+    max-width: 1120px;
     margin: auto;
     display: block;
   }
 
   /*アイコンを等分割し横並びさせる*/
   .second_icons{
+    width: 100%;
+    height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 40px 0;
   }
 
   /*アイコンを等分割し横並びさせる*/
