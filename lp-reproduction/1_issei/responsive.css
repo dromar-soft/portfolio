@@ -11,7 +11,20 @@
     height: 60px;
   }
   .header_contents{
+    padding: 0 20px;
     height: 60px;
+  }
+
+  /*トップリンクアイコンサイズ調節*/
+  header .top-link{
+    width: 50%;
+    height: 0;
+    padding-bottom: 5%;
+  }
+
+  /*ヘッダメニューを消去*/
+  ul.header-menu{
+    width: 0;
   }
 
   /*一つずつ縦に並べる*/
@@ -49,12 +62,23 @@
     visibility: hidden;
   }
 
-  /*ヘッダ高さ調節*/
+  /*ヘッダ高さ、パディング調節*/
   .padding-header{
     height: 101px;
   }
   .header_contents{
+    padding: 0px 50px;
     height: 101px;
+  }
+
+  header .top-link{
+    display: inline-block;
+    width: 30%;
+    height: 0;
+    padding-bottom: 3%;
+    background: url("./img/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
   /*アイコンを等分割し横並びさせる*/

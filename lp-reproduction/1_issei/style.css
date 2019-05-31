@@ -14,16 +14,15 @@ header{
   /*header .containerを上部固定にするため、先頭でbodyに被らないようパディング*/
   .padding-header{
     width: 100%;
-    height: 101px;
+    /*responsive.css参照*/
   }
 
   .header_contents{
-    height: 101px;
-    padding: 0px 50px;
     min-height: 4vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /*responsive.css参照*/
   }
 
   header .top-link{
@@ -32,8 +31,9 @@ header{
     /* width: 20%;
     height: 80px; */
     display: inline-block;
-    width: 30vw;
-    height: 3vw;
+    width: 30%;
+    height: 0;
+    padding-bottom: 3%;
     background: url("./img/logo.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -65,7 +65,7 @@ header{
   }
 
   .header-menu-icon{
-    font-size: 40px;
+    font-size: 32px;
     float: right;
   }
 
