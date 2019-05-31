@@ -64,6 +64,11 @@ header{
       text-decoration: none;
   }
 
+  .header-menu-icon{
+    font-size: 40px;
+    float: right;
+  }
+
 /* /header */
 
 body {

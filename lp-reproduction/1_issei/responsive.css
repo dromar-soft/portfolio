@@ -1,6 +1,11 @@
 /*スマホ用*/
 @media screen and (max-width:480px){
 
+  /*ヘッダメニューを非表示*/
+  .header-menu{
+    visibility: hidden;
+  }
+
   /*一つずつ縦に並べる*/
   .top_icons{
     text-align:center;
@@ -30,6 +35,11 @@
 
 /*PC用*/
 @media screen and (min-width:481px){
+
+  /*ヘッダメニューアイコンを非表示*/
+  .header-menu-icon{
+    visibility: hidden;
+  }
 
   /*アイコンを等分割し横並びさせる*/
   .top_icons{
